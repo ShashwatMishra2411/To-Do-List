@@ -27,7 +27,7 @@ body{
     margin-top: 5vh;
     color: white;
 }
-#ibox{
+.ibox{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,24 +46,24 @@ body{
     font-weight: 200;
 }
 #addBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    top: 1vh;
-    right: 3.7px;
      height: 9.5vh;
      width: 10vw;
      border: 1px solid #355E3B;
      border-radius: 0 5px 5px 0px;
      box-shadow: 0 6px 0 #006400;
-     margin-left: 0;
      background-color: #66FF00;
      color: black;
      font-weight: 900;
-     font-size: xx-large;
+     font-size: 4vw;
      font-stretch: expanded;
      letter-spacing: 0.01em;
 }
 #addBtn:active{
-    top: 1.9vh;
+    top: 1vh;
     box-shadow: 0 -1px 0 grey;
 }
 #theader{
@@ -79,7 +79,7 @@ li{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 50vw;
     height: 7vh;
     border: 1px solid green;
@@ -96,10 +96,13 @@ li:hover{
 li span{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     flex-basis: 80%;
     padding: 5px;
     padding-left: 10px;
+    height: 100%;
+    font-size: 2.5vw;
     overflow: hidden;
 }
 .rmBtn{
