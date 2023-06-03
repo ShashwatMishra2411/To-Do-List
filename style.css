@@ -10,13 +10,13 @@ body{
     width: 100vw;
     height: 100vh;
     background: radial-gradient(
-        circle ,
+        circle,
         #242222,
-        black 90%
+        black 99%
       ) no-repeat;
-      background-position: bottom;
+      background-position: center;
       background-size: 100% 100%;
-
+      background-color: black;
 }
 #addBtn{
     position: relative;
@@ -42,8 +42,8 @@ body{
     border-right: 2px solid black;
     border-radius: 6px 0px 0px 6px;
     box-shadow: inset 0 -4px 0px black;
-    font-size: 20px;
-    font-weight: 200;
+    font-size: 4vw;
+    font-weight: 600;
 }
 #addBtn{
     display: flex;
@@ -80,7 +80,7 @@ li{
     justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
-    width: 50vw;
+    width: 80vw;
     height: 7vh;
     border: 1px solid green;
     margin: 10px;
@@ -106,7 +106,7 @@ li span{
     overflow: hidden;
 }
 .rmBtn{
-    flex-basis: 10%;
+    flex-basis: 15%;
     position: relative;
     z-index: 2;
     background-color: white;
@@ -125,4 +125,20 @@ li span{
 .rmBtn:hover{
     color: white;
     background-position: left;
+}
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    flex-basis: 5%;
+    overflow: hidden;
+}
+svg{
+    position: relative;
+    z-index: 1;
+    height: 100%;
+}
+.svg:active{
+    transform: scale(1.5);
 }
