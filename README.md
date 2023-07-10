@@ -6,7 +6,8 @@ This program performs the following functions:
    - The task is appended to an unordered list (ul) element with the id "list".
    - The task consists of a span element containing the task title, a remove button (rmBtn), and an SVG icon for text-to-speech functionality.
    - The task is populated with the value entered in the inpbox (input box).
-   - The task's remove button is assigned a click event listener that removes the task from the list, deletes its corresponding data from localStorage, and triggers the saveData function to update the saved data.
+   - The task's remove button is assigned a click event listener that removes the task from the list, deletes its corresponding data from localStorage, and 
+     triggers the saveData function to update the saved data.
    - The inpbox value is cleared.
    - The task's SVG icon is assigned a click event listener that reads aloud the task title using text-to-speech functionality.
 
